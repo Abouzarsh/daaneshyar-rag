@@ -1,0 +1,1 @@
+Persian-first, local RAG workspace with hybrid Qdrant + FTS5 retrieval, streamed Ollama answers, and inspectable document citations. FastAPI, React, TypeScript, Docker, tests, and bilingual docs included.

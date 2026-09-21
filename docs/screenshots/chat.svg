@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="1" stop-color="#0a1423"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efb45d"/>
+      <stop offset="1" stop-color="#f8c978"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2c707f" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#2c707f" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="25" flood-color="#000" flood-opacity=".28"/>
+    </filter>
+    <style>
+      text { font-family: "DejaVu Sans", Arial, sans-serif; }
+      .rtl { direction: rtl; unicode-bidi: plaintext; text-anchor: start; }
+      .muted { fill: #8191a8; }
+      .soft { fill: #adbbce; }
+      .white { fill: #edf3fb; }
+      .gold { fill: #efb45d; }
+      .teal { fill: #5fd5bd; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="900" fill="url(#bg)"/>
+  <circle cx="580" cy="-40" r="460" fill="url(#glow)"/>
+
+  <!-- Right sidebar -->
+  <rect x="1154" width="286" height="900" fill="#0c1727" fill-opacity=".97"/>
+  <line x1="1154" y1="0" x2="1154" y2="900" stroke="#adc4e2" stroke-opacity=".13"/>
+  <rect x="1370" y="22" width="46" height="46" rx="14" fill="#182337" stroke="#efb45d" stroke-opacity=".45"/>
+  <path d="M1382 33h13c5 0 9 4 9 9v15h-13c-5 0-9-4-9-9V33Z" fill="none" stroke="#edf3fb" stroke-width="2"/>
+  <path d="M1388 41h10M1388 47h10M1388 53h6" stroke="#edf3fb" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="1404" cy="34" r="4" fill="#efb45d"/>
+  <text x="1357" y="43" text-anchor="end" class="white rtl" font-size="20" font-weight="700">دانشیار</text>
+  <text x="1357" y="61" text-anchor="end" class="muted rtl" font-size="10">هوش سازمانی، با منبع</text>
+
+  <rect x="1172" y="91" width="250" height="48" rx="13" fill="url(#gold)"/>
+  <text x="1397" y="121" text-anchor="end" fill="#291b08" class="rtl" font-size="13" font-weight="700">گفت‌وگوی تازه</text>
+  <path d="M1195 108v14M1188 115h14" stroke="#291b08" stroke-width="2" stroke-linecap="round"/>
+
+  <rect x="1172" y="160" width="250" height="42" rx="11" fill="#efb45d" fill-opacity=".09"/>
+  <rect x="1418" y="170" width="3" height="22" rx="2" fill="#efb45d"/>
+  <circle cx="1397" cy="181" r="8" fill="none" stroke="#efb45d" stroke-width="1.6"/>
+  <path d="M1393 181h8M1397 177v8" stroke="#efb45d" stroke-width="1.5"/>
+  <text x="1378" y="186" text-anchor="end" class="white rtl" font-size="12">گفت‌وگو با اسناد</text>
+
+  <text x="1378" y="229" text-anchor="end" class="soft rtl" font-size="12">کتابخانه اسناد</text>
+  <rect x="1390" y="216" width="15" height="17" rx="2" fill="none" stroke="#8191a8" stroke-width="1.5"/>
+  <text x="1378" y="271" text-anchor="end" class="soft rtl" font-size="12">درباره سامانه</text>
+  <circle cx="1397" cy="266" r="8" fill="none" stroke="#8191a8" stroke-width="1.5"/>
+  <path d="M1397 264v6M1397 261v.5" stroke="#8191a8" stroke-width="1.5" stroke-linecap="round"/>
+
+  <text x="1403" y="321" text-anchor="end" class="muted rtl" font-size="10" font-weight="700">گفت‌وگوهای اخیر</text>
+  <rect x="1172" y="338" width="250" height="61" rx="11" fill="#ffffff" fill-opacity=".04" stroke="#adc4e2" stroke-opacity=".12"/>
+  <text x="1382" y="360" text-anchor="end" class="white rtl" font-size="10.5">زمان واکنش به رخداد P1</text>
+  <text x="1382" y="381" text-anchor="end" class="muted rtl" font-size="9">امروز · ۲ پیام</text>
+  <path d="M1393 353h12v10h-7l-3 3v-3h-2Z" fill="none" stroke="#8191a8" stroke-width="1.3"/>
+
+  <rect x="1172" y="824" width="250" height="57" rx="12" fill="#ffffff" fill-opacity=".035" stroke="#adc4e2" stroke-opacity=".12"/>
+  <circle cx="1401" cy="849" r="5" fill="#5fd5a6"/>
+  <circle cx="1401" cy="849" r="10" fill="none" stroke="#5fd5a6" stroke-opacity=".15"/>
+  <text x="1382" y="846" text-anchor="end" class="white rtl" font-size="10">مدل آماده پاسخ‌گویی</text>
+  <text x="1382" y="864" text-anchor="end" class="muted" font-size="9">qwen3:4b</text>
+
+  <!-- Main top bar -->
+  <rect x="0" y="0" width="1154" height="65" fill="#08111f" fill-opacity=".74"/>
+  <line x1="0" y1="65" x2="1154" y2="65" stroke="#adc4e2" stroke-opacity=".13"/>
+  <text x="1115" y="40" text-anchor="end" class="soft rtl" font-size="12">گفت‌وگو با اسناد</text>
+  <rect x="32" y="17" width="132" height="32" rx="16" fill="#ffffff" fill-opacity=".035" stroke="#adc4e2" stroke-opacity=".13"/>
+  <circle cx="143" cy="33" r="4" fill="#5fd5a6"/>
+  <text x="130" y="37" text-anchor="end" class="soft rtl" font-size="9.5">سامانه آماده است</text>
+
+  <!-- User question -->
+  <rect x="522" y="126" width="522" height="72" rx="16" fill="#efb45d" fill-opacity=".08" stroke="#efb45d" stroke-opacity=".25"/>
+  <text x="1018" y="155" text-anchor="end" class="white rtl" font-size="13">در رخداد P1 زمان پذیرش و هدف بازگردانی اولیه</text>
+  <text x="1018" y="178" text-anchor="end" class="white rtl" font-size="13">سرویس چقدر است؟</text>
+
+  <!-- Assistant response -->
+  <rect x="1023" y="238" width="36" height="36" rx="10" fill="#5fd5bd" fill-opacity=".09" stroke="#5fd5bd" stroke-opacity=".35"/>
+  <path d="M1041 247l2.5 5.5 5.5 2.5-5.5 2.5-2.5 5.5-2.5-5.5-5.5-2.5 5.5-2.5Z" fill="#5fd5bd"/>
+  <text x="1009" y="254" text-anchor="end" class="soft rtl" font-size="10.5" font-weight="700">دانشیار</text>
+  <text x="1009" y="293" text-anchor="end" class="white rtl" font-size="13">طبق راهنمای عملیات شبکه، زمان پذیرش رخداد بحرانی P1</text>
+  <text x="1009" y="320" text-anchor="end" class="white rtl" font-size="13">حداکثر ۵ دقیقه است. هدف بازگردانی اولیه سرویس نیز</text>
+  <text x="1009" y="347" text-anchor="end" class="white rtl" font-size="13">۳۰ دقیقه تعیین شده است. [1]</text>
+
+  <text x="1009" y="397" text-anchor="end" class="muted rtl" font-size="10">۱ منبع استفاده‌شده</text>
+  <rect x="284" y="414" width="760" height="80" rx="12" fill="#ffffff" fill-opacity=".035" stroke="#adc4e2" stroke-opacity=".14"/>
+  <rect x="1000" y="430" width="28" height="28" rx="8" fill="#efb45d" fill-opacity=".12"/>
+  <text x="1014" y="449" text-anchor="middle" class="gold" font-size="10" font-weight="700">1</text>
+  <text x="984" y="443" text-anchor="end" class="white" font-size="10.5">network-operations-handbook-fa.md</text>
+  <text x="984" y="465" text-anchor="end" class="muted rtl" font-size="9">بازیابی معنایی + کلیدواژه‌ای</text>
+  <text x="309" y="448" class="teal" font-size="9" font-weight="700">100%</text>
+
+  <rect x="284" y="509" width="760" height="108" rx="12" fill="#ffffff" fill-opacity=".025" stroke="#adc4e2" stroke-opacity=".1"/>
+  <text x="1018" y="541" text-anchor="end" class="soft rtl" font-size="10.5">رخداد بحرانی یا P1 رویدادی است که باعث قطع کامل یک سرویس اصلی شود.</text>
+  <text x="1018" y="568" text-anchor="end" class="soft rtl" font-size="10.5">زمان پذیرش رخداد P1 حداکثر ۵ دقیقه و هدف بازگردانی اولیه سرویس</text>
+  <text x="1018" y="595" text-anchor="end" class="soft rtl" font-size="10.5">۳۰ دقیقه است.</text>
+
+  <!-- Composer -->
+  <rect x="210" y="743" width="790" height="102" rx="18" fill="#111d2f" stroke="#adc4e2" stroke-opacity=".23" filter="url(#shadow)"/>
+  <text x="971" y="777" text-anchor="end" class="muted rtl" font-size="12">سؤالت را از میان اسناد بپرس…</text>
+  <rect x="947" y="798" width="38" height="36" rx="10" fill="url(#gold)"/>
+  <path d="M966 822v-13M960 815l6-6 6 6" fill="none" stroke="#291b08" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="226" y="802" width="96" height="28" rx="8" fill="#ffffff" fill-opacity=".035"/>
+  <text x="304" y="820" text-anchor="end" class="muted rtl" font-size="9">همه اسناد</text>
+  <text x="605" y="871" text-anchor="middle" class="muted rtl" font-size="8.5">پاسخ‌ها از اسناد بازیابی می‌شوند؛ برای تصمیم‌های حساس، منبع را بررسی کنید.</text>
+</svg>

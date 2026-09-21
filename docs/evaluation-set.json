@@ -1,0 +1,27 @@
+[
+  {
+    "id": "network-p1-response-time",
+    "question": "زمان پذیرش رخداد P1 و هدف بازگردانی اولیه سرویس چقدر است؟",
+    "expected_document": "network-operations-handbook-fa.md"
+  },
+  {
+    "id": "network-backup-retention",
+    "question": "نسخه‌های پشتیبان روزانه چند روز نگهداری می‌شوند؟",
+    "expected_document": "network-operations-handbook-fa.md"
+  },
+  {
+    "id": "remote-days",
+    "question": "کارکنان چند روز در هفته اجازه دورکاری دارند؟",
+    "expected_document": "remote-work-policy-fa.txt"
+  },
+  {
+    "id": "remote-vpn",
+    "question": "برای دسترسی از خانه چه الزامات امنیتی وجود دارد؟",
+    "expected_document": "remote-work-policy-fa.txt"
+  },
+  {
+    "id": "support-security-escalation",
+    "question": "Where should a customer security incident be escalated?",
+    "expected_document": "customer-support-playbook-en.md"
+  }
+]

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="sp-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07101d"/>
+      <stop offset=".58" stop-color="#0d1b2d"/>
+      <stop offset="1" stop-color="#10283a"/>
+    </linearGradient>
+    <radialGradient id="sp-glow">
+      <stop stop-color="#4ba99f" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#4ba99f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sp-gold"><stop stop-color="#efb45d"/><stop offset="1" stop-color="#f8cc7d"/></linearGradient>
+    <filter id="sp-shadow"><feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#000" flood-opacity=".35"/></filter>
+    <style>text{font-family:"DejaVu Sans",Arial,sans-serif}.rtl{direction:rtl;unicode-bidi:plaintext;text-anchor:start}</style>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sp-bg)"/>
+  <circle cx="920" cy="80" r="380" fill="url(#sp-glow)"/>
+  <circle cx="50" cy="660" r="280" fill="#efb45d" fill-opacity=".07"/>
+
+  <g transform="translate(78 72)">
+    <rect width="66" height="66" rx="19" fill="#fff" fill-opacity=".055" stroke="#efb45d" stroke-opacity=".55"/>
+    <path d="M17 15h20c8 0 14 6 14 14v24H31c-8 0-14-6-14-14V15Z" fill="none" stroke="#edf3fb" stroke-width="3"/>
+    <path d="M27 28h15M27 36h15M27 44h9" stroke="#edf3fb" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="50" cy="16" r="7" fill="#efb45d"/>
+  </g>
+  <text x="160" y="111" fill="#edf3fb" font-size="31" font-weight="750">Daaneshyar</text>
+  <text x="160" y="139" fill="#8293aa" font-size="14">Persian-first RAG workspace</text>
+
+  <text x="78" y="228" fill="#edf3fb" font-size="43" font-weight="780">Answers you can trace</text>
+  <text x="78" y="284" fill="#efb45d" font-size="43" font-weight="780">back to the source.</text>
+  <text x="78" y="329" fill="#9eafc4" font-size="17">Hybrid retrieval · Local Ollama · Inspectable citations</text>
+
+  <g transform="translate(78 380)">
+    <rect width="144" height="38" rx="19" fill="#efb45d" fill-opacity=".12" stroke="#efb45d" stroke-opacity=".3"/>
+    <text x="72" y="25" text-anchor="middle" fill="#f4c779" font-size="13">FastAPI</text>
+    <rect x="156" width="144" height="38" rx="19" fill="#5fd5bd" fill-opacity=".1" stroke="#5fd5bd" stroke-opacity=".28"/>
+    <text x="228" y="25" text-anchor="middle" fill="#75ddc8" font-size="13">React + TS</text>
+    <rect x="312" width="144" height="38" rx="19" fill="#a89bea" fill-opacity=".1" stroke="#a89bea" stroke-opacity=".28"/>
+    <text x="384" y="25" text-anchor="middle" fill="#b8acf4" font-size="13">Qdrant</text>
+  </g>
+
+  <!-- Mini product card -->
+  <g transform="translate(650 95)" filter="url(#sp-shadow)">
+    <rect width="470" height="450" rx="24" fill="#111d2f" stroke="#adc4e2" stroke-opacity=".18"/>
+    <rect width="470" height="57" rx="24" fill="#0c1727"/>
+    <rect y="34" width="470" height="23" fill="#0c1727"/>
+    <circle cx="437" cy="28" r="5" fill="#5fd5a6"/>
+    <text x="418" y="33" text-anchor="end" fill="#adbbce" class="rtl" font-size="11">سامانه آماده است</text>
+    <rect x="105" y="88" width="326" height="58" rx="14" fill="#efb45d" fill-opacity=".08" stroke="#efb45d" stroke-opacity=".22"/>
+    <text x="410" y="113" text-anchor="end" fill="#edf3fb" class="rtl" font-size="12">در رخداد P1 زمان بازگردانی</text>
+    <text x="410" y="133" text-anchor="end" fill="#edf3fb" class="rtl" font-size="12">اولیه سرویس چقدر است؟</text>
+    <rect x="397" y="177" width="36" height="36" rx="10" fill="#5fd5bd" fill-opacity=".1" stroke="#5fd5bd" stroke-opacity=".3"/>
+    <path d="M415 185l2.3 5 5 2.3-5 2.3-2.3 5-2.3-5-5-2.3 5-2.3Z" fill="#5fd5bd"/>
+    <text x="383" y="194" text-anchor="end" fill="#aab9cd" class="rtl" font-size="10">دانشیار</text>
+    <text x="410" y="235" text-anchor="end" fill="#edf3fb" class="rtl" font-size="12">زمان پذیرش حداکثر ۵ دقیقه و</text>
+    <text x="410" y="259" text-anchor="end" fill="#edf3fb" class="rtl" font-size="12">هدف بازگردانی ۳۰ دقیقه است. [1]</text>
+    <rect x="39" y="294" width="392" height="66" rx="12" fill="#fff" fill-opacity=".035" stroke="#adc4e2" stroke-opacity=".13"/>
+    <rect x="391" y="312" width="25" height="25" rx="7" fill="#efb45d" fill-opacity=".13"/>
+    <text x="403.5" y="329" text-anchor="middle" fill="#efb45d" font-size="9">1</text>
+    <text x="378" y="320" text-anchor="end" fill="#edf3fb" font-size="9.5">network-operations-handbook-fa.md</text>
+    <text x="378" y="341" text-anchor="end" fill="#74849a" class="rtl" font-size="8.5">منبع بازیابی‌شده · ۱۰۰٪</text>
+    <rect x="39" y="385" width="392" height="43" rx="12" fill="#0b1524" stroke="#adc4e2" stroke-opacity=".18"/>
+    <text x="409" y="412" text-anchor="end" fill="#74849a" class="rtl" font-size="10">سؤالت را از میان اسناد بپرس…</text>
+  </g>
+
+  <text x="78" y="574" fill="#6f8198" font-size="13">FastAPI · React · Qdrant · Ollama · SQLite FTS5</text>
+</svg>

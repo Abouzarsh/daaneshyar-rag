@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="1" stop-color="#0b1626"/>
+    </linearGradient>
+    <linearGradient id="gold2"><stop stop-color="#efb45d"/><stop offset="1" stop-color="#f8c978"/></linearGradient>
+    <style>
+      text { font-family: "DejaVu Sans", Arial, sans-serif; }
+      .rtl { direction: rtl; unicode-bidi: plaintext; text-anchor: start; }
+      .w { fill:#edf3fb } .s { fill:#aab9cd } .m { fill:#74849a }
+    </style>
+  </defs>
+  <rect width="1440" height="900" fill="url(#bg2)"/>
+
+  <!-- Sidebar -->
+  <rect x="1154" width="286" height="900" fill="#0c1727"/>
+  <line x1="1154" x2="1154" y2="900" stroke="#adc4e2" stroke-opacity=".13"/>
+  <rect x="1370" y="22" width="46" height="46" rx="14" fill="#182337" stroke="#efb45d" stroke-opacity=".45"/>
+  <path d="M1382 33h13c5 0 9 4 9 9v15h-13c-5 0-9-4-9-9V33Z" fill="none" stroke="#edf3fb" stroke-width="2"/>
+  <path d="M1388 41h10M1388 47h10M1388 53h6" stroke="#edf3fb" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="1404" cy="34" r="4" fill="#efb45d"/>
+  <text x="1357" y="43" text-anchor="end" class="w rtl" font-size="20" font-weight="700">دانشیار</text>
+  <text x="1357" y="61" text-anchor="end" class="m rtl" font-size="10">هوش سازمانی، با منبع</text>
+  <rect x="1172" y="91" width="250" height="48" rx="13" fill="url(#gold2)"/>
+  <text x="1397" y="121" text-anchor="end" fill="#291b08" class="rtl" font-size="13" font-weight="700">گفت‌وگوی تازه</text>
+  <rect x="1172" y="202" width="250" height="42" rx="11" fill="#efb45d" fill-opacity=".09"/>
+  <rect x="1418" y="212" width="3" height="22" rx="2" fill="#efb45d"/>
+  <text x="1378" y="228" text-anchor="end" class="w rtl" font-size="12">کتابخانه اسناد</text>
+  <text x="1378" y="186" text-anchor="end" class="s rtl" font-size="12">گفت‌وگو با اسناد</text>
+  <text x="1378" y="270" text-anchor="end" class="s rtl" font-size="12">درباره سامانه</text>
+
+  <!-- Header -->
+  <rect width="1154" height="65" fill="#08111f" fill-opacity=".76"/>
+  <line y1="65" x2="1154" y2="65" stroke="#adc4e2" stroke-opacity=".13"/>
+  <text x="1115" y="40" text-anchor="end" class="s rtl" font-size="12">کتابخانه اسناد</text>
+  <rect x="32" y="17" width="132" height="32" rx="16" fill="#fff" fill-opacity=".035" stroke="#adc4e2" stroke-opacity=".13"/>
+  <circle cx="143" cy="33" r="4" fill="#5fd5a6"/>
+  <text x="130" y="37" text-anchor="end" class="s rtl" font-size="9.5">سامانه آماده است</text>
+
+  <!-- Page heading -->
+  <text x="1080" y="117" text-anchor="end" fill="#efb45d" class="rtl" font-size="10" font-weight="700">پایگاه دانش</text>
+  <text x="1080" y="154" text-anchor="end" class="w rtl" font-size="27" font-weight="700">کتابخانه اسناد</text>
+  <text x="1080" y="183" text-anchor="end" class="s rtl" font-size="11">فایل‌ها را مدیریت کن و وضعیت پردازش هر سند را ببین.</text>
+
+  <!-- Stats -->
+  <g>
+    <rect x="74" y="216" width="322" height="82" rx="14" fill="#111d2f" stroke="#adc4e2" stroke-opacity=".13"/>
+    <rect x="94" y="236" width="42" height="42" rx="11" fill="#a89bea" fill-opacity=".11"/>
+    <circle cx="115" cy="257" r="9" fill="none" stroke="#a89bea" stroke-width="2"/>
+    <path d="M109 257h12M115 251v12" stroke="#a89bea" stroke-width="1.5"/>
+    <text x="370" y="248" text-anchor="end" class="w" font-size="21" font-weight="700">0</text>
+    <text x="370" y="271" text-anchor="end" class="m rtl" font-size="9.5">پرسش پاسخ‌داده‌شده</text>
+  </g>
+  <g>
+    <rect x="407" y="216" width="322" height="82" rx="14" fill="#111d2f" stroke="#adc4e2" stroke-opacity=".13"/>
+    <rect x="427" y="236" width="42" height="42" rx="11" fill="#5fd5bd" fill-opacity=".11"/>
+    <path d="M439 249h18v15h-18ZM442 245h18v15" fill="none" stroke="#5fd5bd" stroke-width="1.7"/>
+    <text x="703" y="248" text-anchor="end" class="w" font-size="21" font-weight="700">9</text>
+    <text x="703" y="271" text-anchor="end" class="m rtl" font-size="9.5">قطعه دانشی</text>
+  </g>
+  <g>
+    <rect x="740" y="216" width="340" height="82" rx="14" fill="#111d2f" stroke="#adc4e2" stroke-opacity=".13"/>
+    <rect x="760" y="236" width="42" height="42" rx="11" fill="#efb45d" fill-opacity=".11"/>
+    <path d="M772 247h18v21h-18ZM776 252h10M776 257h10M776 262h6" fill="none" stroke="#efb45d" stroke-width="1.6"/>
+    <text x="1054" y="248" text-anchor="end" class="w" font-size="21" font-weight="700">3</text>
+    <text x="1054" y="271" text-anchor="end" class="m rtl" font-size="9.5">سند آماده</text>
+  </g>
+
+  <!-- Upload -->
+  <rect x="74" y="314" width="1006" height="112" rx="16" fill="#5fd5bd" fill-opacity=".035" stroke="#5fd5bd" stroke-opacity=".34" stroke-dasharray="6 6"/>
+  <rect x="1004" y="342" width="54" height="54" rx="14" fill="#5fd5bd" fill-opacity=".09" stroke="#5fd5bd" stroke-opacity=".25"/>
+  <path d="M1031 381v-21M1023 368l8-8 8 8M1020 383h22" fill="none" stroke="#5fd5bd" stroke-width="2" stroke-linecap="round"/>
+  <text x="985" y="360" text-anchor="end" class="w rtl" font-size="12" font-weight="700">فایل را اینجا رها کن</text>
+  <text x="985" y="383" text-anchor="end" class="s rtl" font-size="10">یا برای انتخاب از سیستم کلیک کن</text>
+  <text x="350" y="374" class="m rtl" font-size="9">PDF، DOCX، TXT و MD · حداکثر ۲۵ مگابایت</text>
+
+  <!-- Document panel -->
+  <rect x="74" y="444" width="1006" height="365" rx="16" fill="#111d2f" stroke="#adc4e2" stroke-opacity=".14"/>
+  <line x1="74" y1="512" x2="1080" y2="512" stroke="#adc4e2" stroke-opacity=".12"/>
+  <text x="1054" y="485" text-anchor="end" class="w rtl" font-size="12" font-weight="700">همه فایل‌ها</text>
+  <text x="972" y="485" text-anchor="end" class="m rtl" font-size="9.5">۳ مورد</text>
+  <rect x="94" y="461" width="224" height="36" rx="10" fill="#fff" fill-opacity=".035" stroke="#adc4e2" stroke-opacity=".12"/>
+  <text x="296" y="484" text-anchor="end" class="m rtl" font-size="9.5">جست‌وجوی نام فایل</text>
+  <circle cx="113" cy="478" r="6" fill="none" stroke="#74849a" stroke-width="1.5"/>
+  <path d="M117 483l5 5" stroke="#74849a" stroke-width="1.5"/>
+
+  <!-- Rows -->
+  <g>
+    <rect x="1017" y="531" width="42" height="42" rx="10" fill="#fff" fill-opacity=".035" stroke="#adc4e2" stroke-opacity=".12"/>
+    <text x="1038" y="556" text-anchor="middle" fill="#efb45d" font-size="8" font-weight="700">MD</text>
+    <text x="1001" y="546" text-anchor="end" class="w" font-size="10.5">network-operations-handbook-fa.md</text>
+    <text x="1001" y="568" text-anchor="end" class="m rtl" font-size="9">۵.۱ KB · امروز · ۶ قطعه</text>
+    <rect x="173" y="540" width="116" height="26" rx="13" fill="#5fd5a6" fill-opacity=".09"/>
+    <circle cx="269" cy="553" r="5" fill="none" stroke="#5fd5a6" stroke-width="1.5"/>
+    <path d="M266 553l2 2 4-5" fill="none" stroke="#5fd5a6" stroke-width="1.4"/>
+    <text x="255" y="557" text-anchor="end" fill="#5fd5a6" class="rtl" font-size="8.7">آماده پرسش</text>
+  </g>
+  <line x1="94" y1="594" x2="1060" y2="594" stroke="#adc4e2" stroke-opacity=".1"/>
+  <g>
+    <rect x="1017" y="614" width="42" height="42" rx="10" fill="#fff" fill-opacity=".035" stroke="#adc4e2" stroke-opacity=".12"/>
+    <text x="1038" y="639" text-anchor="middle" fill="#efb45d" font-size="8" font-weight="700">TXT</text>
+    <text x="1001" y="629" text-anchor="end" class="w" font-size="10.5">remote-work-policy-fa.txt</text>
+    <text x="1001" y="651" text-anchor="end" class="m rtl" font-size="9">۲.۴ KB · امروز · ۲ قطعه</text>
+    <rect x="173" y="623" width="116" height="26" rx="13" fill="#5fd5a6" fill-opacity=".09"/>
+    <text x="255" y="640" text-anchor="end" fill="#5fd5a6" class="rtl" font-size="8.7">آماده پرسش</text>
+  </g>
+  <line x1="94" y1="677" x2="1060" y2="677" stroke="#adc4e2" stroke-opacity=".1"/>
+  <g>
+    <rect x="1017" y="697" width="42" height="42" rx="10" fill="#fff" fill-opacity=".035" stroke="#adc4e2" stroke-opacity=".12"/>
+    <text x="1038" y="722" text-anchor="middle" fill="#efb45d" font-size="8" font-weight="700">MD</text>
+    <text x="1001" y="712" text-anchor="end" class="w" font-size="10.5">customer-support-playbook-en.md</text>
+    <text x="1001" y="734" text-anchor="end" class="m rtl" font-size="9">۱.۸ KB · امروز · ۱ قطعه</text>
+    <rect x="173" y="706" width="116" height="26" rx="13" fill="#5fd5a6" fill-opacity=".09"/>
+    <text x="255" y="723" text-anchor="end" fill="#5fd5a6" class="rtl" font-size="8.7">آماده پرسش</text>
+  </g>
+</svg>
