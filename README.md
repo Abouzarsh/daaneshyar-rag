@@ -21,6 +21,8 @@ application. Upload PDF, DOCX, Markdown, or text files; ask questions in Persian
 or English; and receive streamed answers with the exact document, page, and
 evidence excerpt behind each claim.
 
+**For prospective clients:** Daaneshyar showcases source-cited, Persian-first document search and answers, hybrid retrieval, and a reproducible demo mode. [Browse selected AI & automation projects](https://github.com/Abouzarsh/n8n-lead-qualification-automation/blob/main/PORTFOLIO.md). Review [architecture](docs/architecture.md) and the instructions below before deployment.
+
 I built it to answer a practical question: how do we make a document assistant
 useful when a confident answer is not enough and the user also needs to verify
 where it came from?
